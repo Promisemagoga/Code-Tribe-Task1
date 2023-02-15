@@ -1,19 +1,5 @@
-.navBar a{
-    float: right;
-    color: #5FD1D4;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: underline;
-    font-size: 17px;
-    
-    
-}
-
-.navBar{
-    padding-top: 10px;
-}
-
-.navBar h1{
+  /* Start for styling for navigation bar*/
+  .logo{
     display: inline;
     border: 2px solid;
     padding: 8px;
@@ -21,17 +7,32 @@
     border-radius: 10px;
 }
 
+  .navigation{
+    float: right;
+    color: #5FD1D4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.navBar{
+    padding-top: 10px;
+}
 
 .navBar a:hover{
     color: black;
     text-decoration: none;
 }
+/* End of styling for navigation bar*/
 
-.image{
+/* Start of styling for home video*/
+.video{
     position: relative;
     top: 20px;
 }
 
+/* Start for styling for typography*/
 h1{
     font-family: Great Vibes;
     position: relative;
@@ -42,7 +43,9 @@ h2{
     color: #5FD1D4;
     font-family: 'Times New Roman';
 }
+/* End  for styling for typography */
 
+/* Start for styling for  bio*/
 .bio{
     position: relative;
     top: 10px;
@@ -71,39 +74,129 @@ h2{
 .bio p{
     width: 600px;
 }
+/* End of styling for bio*/
 
-.icons{
+/* Start for styling for footer*/
+footer {
+  box-shadow: 5px 10px -10px 5px black;
+  height: 200px;
+  background-color: #5FD1D4;
+  border-radius: 10px;
+  position: relative;
+  top: 150px;
+}
+
+.icons {
     padding-top: 5px;
     color: black;
     position: relative;
     right: 80px;
     top: 65px;
     text-align: center;
-}
-
-footer{
-    box-shadow: 5px 10px -10px 5px black;
-    height: 200px;
-    background-color: #5FD1D4;
-    border-radius: 10px;
-    position: relative;
-    top: 150px;
-}
-
-iframe{
+  }
+  
+  iframe {
     position: relative;
     bottom: 110px;
     float: right;
-}
-
-.adress{
+  }
+  
+  .adress {
     color: #ffffff;
     position: relative;
     left: 50px;
     bottom: 30px;
     font-family: 'Times New Roman';
     font-size: medium;
+  
+  }
+/* End for styling for footer*/
+
+/* start of Responsive for mobile phones*/
+@media screen and (max-width:767px) {
+
+    .bio{
+        position: relative;
+        top: 10px;
+        display: block;
+        justify-content: flex-start;
+        align-items: center;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        box-shadow: -5px -16px 19px -20px black;
+        padding-bottom: 50px;
+      }
     
+      .content {
+        position: relative;
+        left: 10px;
+        top: 100px;
+      }
+    
+      .bio img{
+        position: relative;
+        left: 30%;
+      }
+
+      .bio p{
+        width: 350px;
+    }
+
+    .navBar, .logo , a{
+        display: block;
+        width: 150px;
+      
+    }
+
+ .navigation{
+    background-color: #5FD1D4;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+ }
+
+ .navBar{
+    padding-top: 0%;
 }
 
+iframe {
+    position: relative;
+    bottom: 350px;
+    left: 30px;
+    float: none;
+  }
 
+  footer {
+    height: 200px;
+    position: relative;
+    top: 300px;
+  }
+
+ .socialMedia{
+    display: flex;
+   width: 250px;
+    position: relative;
+    left: 200px;
+ }
+
+ .footerP{
+    position: relative;
+    left: 125px;
+ }
+
+ .adress {
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+    bottom: 40vh;
+    font-size: small;
+  
+  }
+}
+/* End for responsive for mobile phone*/

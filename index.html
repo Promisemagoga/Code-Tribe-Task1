@@ -10,27 +10,36 @@
 </head>
 
 <body>
-    <div class="navBar">
-        <h1 class="logo">Promise hub</h1>
-        <a href="./pages/contact.html" class="navigation">Contact me</a>
-        <a href="./pages/about.html" class="navigation">About me</a>
-        <a href="/index.html" class="navigation">Home</a>
+    <div>
+        <table style="width: 100%">
+          <tr>
+            <td>
+                <h1 class="logo" id="logo">Promise hub</h1>
+            </td>
+            <td align="right">
+              <nav
+                style="
+                  margin-top: 16px;
+                  margin-bottom: 16px;
+                  margin-left: 50px;
+                "
+              >
+                <a href="#">Home</a>
+                <a href="/pages/about.html" style="margin: 16px">About Me</a>
+                <a href="/pages/contact.html">Contact Me</a>
+              </nav>
+            </td>
+          </tr>
+        </table>
+    <div class="video" id="vid">
+       
     </div>
-    <div class="video">
-       <video src="src/1562009973860.mp4"  type="video/mp4" controls width="100%"></video>
-       <!-- <img src="src/binary-2372130__340.webp" alt="" width="100%">-->
-    </div>
-    <section class="bio">
+    <section class="bio" id="bioC">
         <div class="content">
-            <h2>Promise Tshegofatso Magoga</h2>
-            <p>I am a young energetic individual, working my way up to be the female version of Mark Zuckernberg. I am a
-                fullstack web developer and I have
-                experience building full-stack web applications and Restful APIs using languages and frameworks
-                including html/css/javaScript, Node.js/Express.js,
-                Testing APIs using postman and mongodb.
-            </p>
+            <h2 id="name"></h2>
+            <p id="bio"></p>
         </div>
-        <img src="src/IMG_20220704_123351_340.webp" alt="me" height="200px" width="200px">
+       
     </section>
     <br>
     <br>
@@ -51,12 +60,11 @@
             width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="adress">
-            <p>972 Block T <br>Sosganguve,<br> 0152, Pretoria, <br> Gauteng</p>
+            <p id="adress"></p>
         </div>
     </footer>
-    </footer>
     <!--End of footer-->
-</body>
+    <script src="functions.js"></script>
 </body>
 
 </html>

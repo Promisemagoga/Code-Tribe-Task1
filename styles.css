@@ -1,3 +1,4 @@
+
   /* Start for styling for navigation bar*/
   .logo{
     display: inline;
@@ -5,22 +6,17 @@
     padding: 8px;
     border-color: #5FD1D4;
     border-radius: 10px;
-}
-
-  .navigation{
-    float: right;
+    position: relative;
     color: #5FD1D4;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: underline;
-    font-size: 17px;
 }
 
-.navBar{
-    padding-top: 10px;
+  nav a{
+    color: #5FD1D4;
 }
 
-.navBar a:hover{
+
+
+nav a:hover{
     color: black;
     text-decoration: none;
 }
@@ -52,8 +48,6 @@ h2{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
     box-shadow: -5px -16px 19px -20px black;
     padding-bottom: 50px;
   }
@@ -66,6 +60,7 @@ h2{
 
   .bio img{
     border-radius: 100%;
+    border: 5px solid #5FD1D4;
     position: relative;
     top: 120px;
     left: 35%;
@@ -126,7 +121,15 @@ footer {
         box-shadow: -5px -16px 19px -20px black;
         padding-bottom: 50px;
       }
-    
+
+      video{
+        width: 350px;
+        height: 350px;
+      }
+   nav{
+    position: relative;
+    right: 100px;
+   }
       .content {
         position: relative;
         left: 10px;

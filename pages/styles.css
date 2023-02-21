@@ -34,7 +34,7 @@ b {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   position: relative;
-  top: 100px;
+  top: 60px;
   bottom: 80px;
 }
 /* End of styling for name and email text field*/
@@ -47,13 +47,15 @@ b {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   position: relative;
-  top: 100px;
+  top: 60px;
 }
 /* End of styling for subject and message  text field*/
 
 /* Start of styling for form*/
 form {
   box-shadow: -5px -16px 19px -20px black;
+  position: relative;
+  top: 50px;
 }
 
 /* Start of styling for input fields*/
@@ -80,8 +82,8 @@ form {
 /* Start of styling for contact button*/
 button {
   position: relative;
-  top: 150px;
-  left: 40%;
+  top: 100px;
+  left: 38%;
   width: 300px;
   height: 30px;
   background-color: #5FD1D4;

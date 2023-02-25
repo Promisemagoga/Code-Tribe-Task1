@@ -1,48 +1,29 @@
-
-  /* Start for styling for navigation bar*/
-  .logo{
-    display: inline;
-    border: 2px solid;
-    padding: 8px;
-    border-color: #5FD1D4;
-    border-radius: 10px;
-    position: relative;
-    color: #5FD1D4;
+body {
+    background-color: #0A0F22;
 }
 
-  nav a{
-    color: #5FD1D4;
+.mainContent {
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-
-
-nav a:hover{
-    color: black;
+nav a {
+    color: white;
     text-decoration: none;
 }
-/* End of styling for navigation bar*/
 
-/* Start of styling for home video*/
-.video{
-    position: relative;
-    top: 20px;
+nav a:hover {
+    background-color: #5FD1D4;
+    padding: 10px;
+    
+    
 }
 
-/* Start for styling for typography*/
-h1{
-    font-family: Great Vibes;
-    position: relative;
-    top: 10px;
-}
-
-h2{
-    color: #5FD1D4;
-    font-family: 'Times New Roman';
-}
-/* End  for styling for typography */
-
-/* Start for styling for  bio*/
-.bio{
+.bio {
     position: relative;
     top: 10px;
     display: flex;
@@ -50,35 +31,250 @@ h2{
     align-items: center;
     box-shadow: -5px -16px 19px -20px black;
     padding-bottom: 50px;
-  }
+}
 
-  .content {
+.content {
     position: relative;
     left: 50px;
     top: 100px;
-  }
+}
 
-  .bio img{
+.bio img {
     border-radius: 100%;
     border: 5px solid #5FD1D4;
     position: relative;
     top: 120px;
-    left: 35%;
+    left: 25%;
+}
+
+.about {
+    background-color: #ffffff;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+}
+
+.about h1 {
+    font-family: 'Times New Roman';
+    font-size: 38px;
+    text-decoration: underline;
+    color: #5FD1D4;
+}
+
+.experience {
+    position: relative;
+    top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: #5FD1D4;
+    text-align: center;
+}
+
+.education {
+    background-color: white;
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.skills {
+    background-color: #5FD1D4;
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.head {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
   }
 
-.bio p{
-    width: 600px;
+.projects{
+    background-color: white;
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
 }
-/* End of styling for bio*/
 
-/* Start for styling for footer*/
-footer {
-  box-shadow: 5px 10px -10px 5px black;
-  height: 200px;
-  background-color: #5FD1D4;
-  border-radius: 10px;
+.view {
+    height: 20px;
+    border-color: #5FD1D4;
+    border-radius: 5px;
+    background-color: #5FD1D4;
+    margin-left: 100px;
+    color: #ffffff;
+  }
+ .projects h3{
+    color: #5FD1D4;
+  }
+
+  .projects h5{
+    color: #ffffff;
+  }
+
+.border-port {
+    border-width: 50px;
+    background-color: #0A0F22;
+    border: 2px solid #0A0F22;
+    color: black;
+    width: 300px;
+    height: 450px;
+    margin-left: 20px;
+    border-radius: 30px;
+  }
+  
+  .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+.cont1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.html {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border: 2px solid white;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+
+.eduContent {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+  }
+  .contactTypo1 {
+    position: relative;
+    top: 10px;
+    left: 50px;
+  }
+  
+  .contactTypo3{
+    position: relative;
+    top: 20px;
+    left: 55px;
+    width: 100px;
+    font-weight: lighter;
+  }
+  
+  .sec {
+    width: 450px;
+    height: 150px;
+    box-shadow: -5px -16px 19px -20px black;
+  
+  }
+  
+  .sec:hover {
+    background-color: #5FD1D4;
+    color: #ffffff;
+  }
+
+  .main{
+    position: relative;
+    top: 10px;
+    background-color: #ffffff;
+    height: 650px;
+    border-radius: 10px;
+  }
+  
+  #name,
+#email {
+  width: 300px;
+  height: 30px;
+}
+
+
+#subject,
+#message {
+  width: 630px;
+}
+
+#subject {
+  height: 30px;
+}
+
+button {
+    position: relative;
+    top: 100px;
+    left: 38%;
+    width: 300px;
+    height: 30px;
+    background-color: #5FD1D4;
+    color: #ffffff;
+    border-color: #5FD1D4;
+    border-radius: 30px;
+  }
+
+  .contactIcon {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 10px;
+  }
+
+  form {
+  box-shadow: -5px -16px 19px -20px black;
   position: relative;
-  top: 150px;
+  top: 50px;
+}
+
+  .text-field {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    position: relative;
+    top: 60px;
+    bottom: 80px;
+  }
+
+  .text-field-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    position: relative;
+    top: 60px;
+  }
+footer {
+    min-height: 200px;
+    box-shadow: 5px 10px -10px 5px black;
+    height: 200px;
+    background-color: #5FD1D4;
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
 }
 
 .icons {
@@ -88,118 +284,19 @@ footer {
     right: 80px;
     top: 65px;
     text-align: center;
-  }
-  
-  iframe {
+}
+
+iframe {
     position: relative;
     bottom: 110px;
     float: right;
-  }
-  
-  .adress {
+}
+
+.adress {
     color: #ffffff;
     position: relative;
     left: 50px;
     bottom: 30px;
     font-family: 'Times New Roman';
     font-size: medium;
-  
-  }
-/* End for styling for footer*/
-
-/* start of Responsive for mobile phones*/
-@media screen and (max-width:767px) {
-
-    .bio{
-        position: relative;
-        top: 10px;
-        display: block;
-        justify-content: flex-start;
-        align-items: center;
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-        box-shadow: -5px -16px 19px -20px black;
-        padding-bottom: 50px;
-      }
-
-      video{
-        width: 350px;
-        height: 350px;
-      }
-   nav{
-    position: relative;
-    right: 100px;
-   }
-      .content {
-        position: relative;
-        left: 10px;
-        top: 100px;
-      }
-    
-      .bio img{
-        position: relative;
-        left: 30%;
-      }
-
-      .bio p{
-        width: 350px;
-    }
-
-    .navBar, .logo , a{
-        display: block;
-        width: 150px;
-      
-    }
-
- .navigation{
-    background-color: #5FD1D4;
-    border-radius: 50px;
-    color: #ffffff;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    padding: 0%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none;
- }
-
- .navBar{
-    padding-top: 0%;
 }
-
-iframe {
-    position: relative;
-    bottom: 350px;
-    left: 30px;
-    float: none;
-  }
-
-  footer {
-    height: 200px;
-    position: relative;
-    top: 300px;
-  }
-
- .socialMedia{
-    display: flex;
-   width: 250px;
-    position: relative;
-    left: 200px;
- }
-
- .footerP{
-    position: relative;
-    left: 125px;
- }
-
- .adress {
-    color: #ffffff;
-    position: relative;
-    left: 20px;
-    bottom: 40vh;
-    font-size: small;
-  
-  }
-}
-/* End for responsive for mobile phone*/

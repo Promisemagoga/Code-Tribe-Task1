@@ -21,7 +21,7 @@ window.onload = function () {
     const img3 = "<img src = 'assets/icons/9196073.png' width='50' height='50' style='border-radius: 10px; position: relative;left: 10px;'>"
     document.getElementById("img3").innerHTML = img3;
 
-    const typo5 = "Call";
+    const typo5 = "Portfolio Website";
     document.getElementById("web").innerHTML = typo5
 
     const typo6 = "https://promisemagoga.github.io/<br>Portfolio_website/";

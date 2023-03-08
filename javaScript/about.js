@@ -33,7 +33,7 @@ window.onload = function () {
   document.getElementById("description3").innerHTML = description3
 
   //education
-  const heading2 = "Experience"
+  const heading2 = "Education"
   document.getElementById("education").innerHTML = heading2;
 
   const schoolName = "Kgadime matsepe secondary school";
